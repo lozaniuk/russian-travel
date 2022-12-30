@@ -1,0 +1,50 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../../../images/stancia__background.jpg);
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 19% 0;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+.cover__link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2a2c2f;
+    opacity: 0.3;
+    transition: opacity 0.4s;
+}
+
+.cover__link:hover::before {
+    transition: opacity 0.4s;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__link {
+        padding: 15% 0;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .cover__link {
+        padding: 8% 0;
+    }
+}
