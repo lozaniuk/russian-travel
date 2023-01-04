@@ -4,7 +4,7 @@
     }
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 1920px) {
     .places__item {
         margin-bottom: 82px;
     }
