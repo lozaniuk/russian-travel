@@ -15,12 +15,7 @@
         width: 100%;
     }
 }
-@media (min-width: 425px) and (max-width: 635px) {
-    .place__image {
-        max-width: 100%;
-    }
-}
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 635px) {
     .place__image {
         max-width: 100%;
     }

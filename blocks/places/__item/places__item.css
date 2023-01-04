@@ -4,12 +4,6 @@
     }
 }
 
-@media (max-width: 1024px) {
-    .places__item {
-        margin-bottom: 82px;
-    }
-}
-
 @media (max-width: 1900px) {
     .places__item {
         margin-bottom: 82px;
